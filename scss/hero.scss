@@ -1,0 +1,56 @@
+#hero {
+    background: $creamy;
+    padding: 170px 0;
+}
+
+#hero .container {
+    max-width: 1000px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+
+    & >  * {
+        width: 50%;
+    }
+}
+
+#hero h5 {
+    color: $orange;
+    font-size: 1.1rem;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#hero h1 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    margin: 2rem 0;
+}
+
+#hero p {
+    line-height: 2rem;
+    margin: 2rem 0;
+    font-family: barlow;
+}
+
+#hero .content-bottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#hero .content-bottom span {
+    font-weight: bold;
+}
+
+#hero .image {
+    height: 300px;
+}
+
+#hero .image-1 {
+    background: url("../images/img1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+

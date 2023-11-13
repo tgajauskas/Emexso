@@ -1,0 +1,44 @@
+header i {
+    color: $orange;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1000px;
+    line-height: 70px;
+    margin: auto;
+    border-bottom: 1px solid rgba(135, 207, 235, 0.365);
+
+    .calls {
+        display: flex;
+        gap: 20px;
+    }
+
+    .social {
+        display: flex;
+        gap: 20px;
+
+        a {
+            border: 1px solid $orange;
+            border-radius: 4px;
+            width: 35px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 0.3s;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background: $orange;
+        
+            i {
+                color: white;
+            }
+        }
+    }
+}
